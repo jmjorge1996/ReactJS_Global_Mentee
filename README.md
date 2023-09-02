@@ -1,2 +1,1 @@
-# ReactJS_Global_Mentee
-
+# ReactJS_Global_Mentee Repository
