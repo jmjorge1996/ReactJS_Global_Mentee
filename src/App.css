@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app_genres-sort-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
