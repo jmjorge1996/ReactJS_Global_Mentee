@@ -46,3 +46,28 @@
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.app_buttons-portals-main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.app_delete-movie-btn {
+  width: 180px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #F65261;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}

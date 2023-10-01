@@ -4,11 +4,11 @@ import './MovieDetails.scss'
 const MovieDetails = ({item}) => {
 
     return (
-        item && <div class="movie-detail__main-container">
-            <div class="movie-detail__img-container">
+        item && <div className="movie-detail__main-container">
+            <div className="movie-detail__img-container">
                 <img src={item.img} alt={item.name} />
             </div>
-            <div class="movie-detail__metadata-container">
+            <div className="movie-detail__metadata-container">
                 <h2 className="movie-detail__title">{item.name}</h2>
                 <div className="movie-detail__genres-container">
                     {item.genres.join(', ')}
