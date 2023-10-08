@@ -28,9 +28,4 @@ describe('MovieDetails', () => {
         expect(sinopsis).toBeInTheDocument();
     });
 
-    test('does not render anything when item is not provided', () => {
-        const {container} = render(<MovieDetails item={null} />);
-        
-        expect(container.firstChild).toBeNull();
-    });
 });

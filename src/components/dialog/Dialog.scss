@@ -1,0 +1,65 @@
+/* Dialog.scss */
+.dialog__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .dialog__content {
+    background: #232323;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05), 0px 10px 20px 0px rgba(0, 0, 0, 0.05), 0px 2px 10px 0px rgba(0, 0, 0, 0.07), 0px 0px 2px 0px rgba(0, 0, 0, 0.10);    width: 100%;
+    max-width: 976px;
+    padding: 40px;
+
+    & * {
+        color: white;
+        font-family: Montserrat;
+    }
+  }
+  
+  .dialog__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+
+    & h2 {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+  }
+  
+  .dialog__header h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .dialog__close-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .dialog__body {
+    /* Agrega estilos adicionales para el contenido del cuerpo según sea necesario */
+  }
+  
