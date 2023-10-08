@@ -9,10 +9,10 @@ const MovieItem = ({item, onClickCallback}) => {
 
   return (
     <div className='movie-item__container' onClick={handleClick}>
-      <img src={item.img} alt={item.name} />
+      <img src={item.poster_path} alt={item.title} />
       <div className="movie-item__name-year-container">
-        <span className='movie-item__name'>{item.name}</span>
-        <span className='movie-item__year'>{item.releaseYear}</span>
+        <span className='movie-item__name'>{item.title}</span>
+        <span className='movie-item__year'>{item.release_date}</span>
       </div>
       <div className="movie-item__genres-container">
         {item.genres.join(', ')}

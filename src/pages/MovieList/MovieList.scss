@@ -1,0 +1,33 @@
+.movie-list-main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    align-items: center;
+
+    .ml-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        min-height: 400px;
+
+        h1 {
+            color: #FFF;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
+
+    .ml-filterbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 230px;
+    }
+}

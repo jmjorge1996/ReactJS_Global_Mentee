@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid#424242;
+    border-bottom: 2px solid transparent;
     padding: 16px 8px;
     cursor: default;
 
@@ -12,10 +12,10 @@
 
     & .genre-item__name {
         margin: 0;
-        color: black;
+        color: white;
         text-transform: uppercase;
         font-family: Montserrat, sans-serif;
-        font-size: 16px;
+        font-size: 22px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
