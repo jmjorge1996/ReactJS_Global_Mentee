@@ -22,7 +22,6 @@
 
         .movie-detail__title {
             text-align: center;
-            font-family: Montserrat;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -31,24 +30,25 @@
             text-transform: uppercase;
             margin-top: 0;
             text-align: left;
+            color: white
         }
 
         .movie-detail__genres-container {
-            font-family: Montserrat;
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+            color: white
         }
 
         .movie-detail__year-runtime-container {
             display: flex;
             flex-direction: row;
             gap: 40px;
+            color: white;
 
             span {
                 color: #F65261;
-                font-family: Montserrat;
                 font-size: 24px;
                 font-style: normal;
                 font-weight: 300;
@@ -57,12 +57,12 @@
         }
 
         .movie-detail__sinopsis {
-            font-family: Montserrat;
             font-size: 20px;
             font-style: normal;
             font-weight: 300;
             line-height: normal;
             text-align: left;
+            color: white
         }
     }
 }
